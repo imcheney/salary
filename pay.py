@@ -39,6 +39,7 @@ if __name__ == '__main__':
 	raw_yearly_income = int(raw_yearly_income)
 	year_net_income, year_home_income = cal(raw_yearly_income)
 	print('raw_yearly_income', raw_yearly_income)
-	print('year:', '不含公积金的纯税后(年)', round(year_net_income), '包含公积金的总收入(年)', round(year_home_income))
-	print('month:', '不含公积金的纯税后(月均)', round(year_net_income / 12), '不含公积金的纯税后(月均)', round(year_home_income / 12))
+	print('year:', '不含公积金的纯税后(年)', round(year_net_income), '带上公积金的总收入(年)', round(year_home_income))
+	print('month:', '不含公积金的纯税后(月均)', round(year_net_income / 12),
+            '带上公积金的纯税后(月均)', round(year_home_income / 12))
 	
